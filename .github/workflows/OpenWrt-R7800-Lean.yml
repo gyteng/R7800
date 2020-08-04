@@ -11,7 +11,7 @@ name: OpenWrt-R7800-Lean
 on:
 # 定时触发
   schedule:
-    - cron: 25 * * * *
+    - cron: 36 * * * *
 
 # Release 发布触发
 #  release:
@@ -22,9 +22,9 @@ on:
 #    types: [started]
 
 # 编辑触发
-#  push:
-#    branches: 
-#       - master
+ push:
+   branches: 
+      - master
 
 env:
   # 源
