@@ -8,7 +8,7 @@
 #=================================================
 
 # 定制默认IP
-sed -i 's/192.168.111.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+# sed -i 's/192.168.111.1/10.0.0.1/g' package/base-files/files/bin/config_generate
 
 # 取掉默认主题
 sed -i 's/ +luci-theme-bootstrap//g' feeds/luci/collections/luci/Makefile 
@@ -18,8 +18,8 @@ rm -rf package/kernel/mac80211/files/lib/wifi/mac80211.sh
 cp -f ../mac80211.sh package/kernel/mac80211/files/lib/wifi/
 
 # 替换banner
-rm -rf package/base-files/files/etc/banner
-cp -f ../banner package/base-files/files/etc/
+# rm -rf package/base-files/files/etc/banner
+# cp -f ../banner package/base-files/files/etc/
 
 # 自定义固件
 rm -rf package/default-settings/files/zzz-default-settings
@@ -270,11 +270,11 @@ CONFIG_PACKAGE_luci-app-autoreboot=y #定时重启
 # CONFIG_PACKAGE_luci-app-frps is not set #Frp内网穿透服务器
 CONFIG_PACKAGE_luci-app-upnp=y #通用即插即用UPnP(端口自动转发)
 # CONFIG_PACKAGE_luci-app-softethervpn is not set #SoftEtherVPN服务器
-# CONFIG_PACKAGE_luci-app-vlmcsd=y #KMS激活服务器
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set #KMS激活服务器
 # CONFIG_PACKAGE_luci-app-sqm is not set #SQM智能队列管理
 CONFIG_PACKAGE_luci-app-ddns=y #DDNS服务
 # CONFIG_PACKAGE_luci-app-vsftpd is not set #FTP服务器
-# CONFIG_PACKAGE_luci-app-wol is not set #网络唤醒
+CONFIG_PACKAGE_luci-app-wol=y #网络唤醒
 # CONFIG_PACKAGE_luci-app-control-mia is not set #时间控制
 # CONFIG_PACKAGE_luci-app-control-timewol is not set #定时唤醒
 # CONFIG_PACKAGE_luci-app-control-webrestriction is not set #访问限制
@@ -282,7 +282,7 @@ CONFIG_PACKAGE_luci-app-ddns=y #DDNS服务
 CONFIG_PACKAGE_luci-app-zerotier=y #ZeroTier内网穿透
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set #访问时间控制
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set #宽带流量监控
-CONFIG_PACKAGE_luci-app-flowoffload=y #Turbo ACC 网络加速
+# CONFIG_PACKAGE_luci-app-flowoffload is not set #Turbo ACC 网络加速
 CONFIG_PACKAGE_luci-app-guest-wifi=y #WiFi访客网络
 # CONFIG_PACKAGE_luci-app-netdata is not set #Netdata实时监控(图表)
 CONFIG_PACKAGE_luci-app-cpufreq=y #CPU 性能优化调节
