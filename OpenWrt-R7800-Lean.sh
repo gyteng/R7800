@@ -7,6 +7,9 @@
 # Github: https://github.com/ClayMoreBoy
 #=================================================
 
+# 定制默认IP
+sed -i 's/192.168.111.1/10.0.0.1/g' package/base-files/files/bin/config_generate
+
 # 取掉默认主题
 sed -i 's/ +luci-theme-bootstrap//g' feeds/luci/collections/luci/Makefile 
 
@@ -121,7 +124,7 @@ EOF
 # 第三方插件选择:
 cat >> .config <<EOF
 CONFIG_PACKAGE_luci-app-oaf=y #应用过滤
-CONFIG_PACKAGE_luci-app-serverchan=y #微信推送
+# CONFIG_PACKAGE_luci-app-serverchan is not set #微信推送
 CONFIG_PACKAGE_luci-app-adguardhome=y #ADguardHome去广告服务
 CONFIG_PACKAGE_luci-app-smartdns-compat=y #SmartDns服务
 EOF
@@ -140,8 +143,8 @@ EOF
 cat >> .config <<EOF
 # CONFIG_PACKAGE_luci-app-smartdns is not set #SmartdnsDNS服务
 # CONFIG_PACKAGE_luci-app-unblockneteasemusic-go is not set #解锁网易云灰色歌曲
-# CONFIG_PACKAGE_luci-app-unblockmusic=y #解锁网易云灰色歌曲
-# CONFIG_UnblockNeteaseMusic_Go=y #解锁网易云灰色歌曲
+# CONFIG_PACKAGE_luci-app-unblockmusic is not set #解锁网易云灰色歌曲
+# CONFIG_UnblockNeteaseMusic_Go is not set #解锁网易云灰色歌曲
 # CONFIG_UnblockNeteaseMusic_NodeJS is not set #解锁网易云灰色歌曲
 # CONFIG_PACKAGE_luci-app-hd-idle is not set #磁盘休眠
 # CONFIG_PACKAGE_luci-app-wrtbwmon is not set #实时流量监测
@@ -277,7 +280,7 @@ CONFIG_PACKAGE_luci-app-ddns=y #DDNS服务
 # CONFIG_PACKAGE_luci-app-control-webrestriction is not set #访问限制
 # CONFIG_PACKAGE_luci-app-control-weburl is not set #网址过滤
 CONFIG_PACKAGE_luci-app-zerotier=y #ZeroTier内网穿透
-# CONFIG_PACKAGE_luci-app-accesscontrol=y #访问时间控制
+# CONFIG_PACKAGE_luci-app-accesscontrol is not set #访问时间控制
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set #宽带流量监控
 CONFIG_PACKAGE_luci-app-flowoffload=y #Turbo ACC 网络加速
 CONFIG_PACKAGE_luci-app-guest-wifi=y #WiFi访客网络

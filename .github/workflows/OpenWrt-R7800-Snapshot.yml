@@ -22,9 +22,9 @@ on:
 #    types: [started]
 
 # 编辑触发
-#  push:
-#    branches: 
-#       - master
+  push:
+    branches: 
+       - master
 
 env:
   # 源
@@ -44,7 +44,7 @@ env:
   # Github 邮箱
   GITHUB_USER_EMAIL: ${{ secrets.EMAIL }}
   # Github
-  GITHUB: github.com/OpenWrt-Actions/R7800.git
+  GITHUB: github.com/gyteng/R7800.git
   # 上传固件
   UPLOAD_FIRMWARE: true
   # 上传到奶牛快传
