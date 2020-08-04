@@ -140,8 +140,8 @@ EOF
 cat >> .config <<EOF
 # CONFIG_PACKAGE_luci-app-smartdns is not set #SmartdnsDNS服务
 # CONFIG_PACKAGE_luci-app-unblockneteasemusic-go is not set #解锁网易云灰色歌曲
-CONFIG_PACKAGE_luci-app-unblockmusic=y #解锁网易云灰色歌曲
-CONFIG_UnblockNeteaseMusic_Go=y #解锁网易云灰色歌曲
+# CONFIG_PACKAGE_luci-app-unblockmusic=y #解锁网易云灰色歌曲
+# CONFIG_UnblockNeteaseMusic_Go=y #解锁网易云灰色歌曲
 # CONFIG_UnblockNeteaseMusic_NodeJS is not set #解锁网易云灰色歌曲
 # CONFIG_PACKAGE_luci-app-hd-idle is not set #磁盘休眠
 # CONFIG_PACKAGE_luci-app-wrtbwmon is not set #实时流量监测
@@ -267,7 +267,7 @@ CONFIG_PACKAGE_luci-app-autoreboot=y #定时重启
 # CONFIG_PACKAGE_luci-app-frps is not set #Frp内网穿透服务器
 CONFIG_PACKAGE_luci-app-upnp=y #通用即插即用UPnP(端口自动转发)
 # CONFIG_PACKAGE_luci-app-softethervpn is not set #SoftEtherVPN服务器
-CONFIG_PACKAGE_luci-app-vlmcsd=y #KMS激活服务器
+# CONFIG_PACKAGE_luci-app-vlmcsd=y #KMS激活服务器
 # CONFIG_PACKAGE_luci-app-sqm is not set #SQM智能队列管理
 CONFIG_PACKAGE_luci-app-ddns=y #DDNS服务
 # CONFIG_PACKAGE_luci-app-vsftpd is not set #FTP服务器
