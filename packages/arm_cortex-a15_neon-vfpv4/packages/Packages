@@ -1,0 +1,335 @@
+Package: boost-date_time
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 950
+Filename: boost-date_time_1.73.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1768
+SHA256sum: 866954d05a14c557af2faff96b76c9c6a66c4296d364ed3a1d5e64ba98c57687
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 68647
+Filename: boost-program_options_1.73.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 69316
+SHA256sum: 93e1806afb510f97aa2ca9b8cbb1587d4b29aad290f00df737fb59be40064f2a
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 926
+Filename: boost-system_1.73.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1747
+SHA256sum: 6ae6e6f39f1eb2dff6d999088830fdb165c2d1df599be26aa6676830ab936e94
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.73.0-1
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: boost_1.73.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1271
+SHA256sum: 6b37a3c50e9f8eea52972c085f8c2d1c98084eeb9bbd6c180b0dc635dc85a7fa
+Description:  This package provides the Boost v1.73.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_72_0/
+
+Package: coreutils-base64
+Version: 8.32-1
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18946
+Filename: coreutils-base64_8.32-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19809
+SHA256sum: e5ac3cebbd6008fe9d907c9f838b658dd4df6a1f7467347528905b33ae89907b
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-nohup
+Version: 8.32-1
+Depends: libc, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/bin/gnu-nohup
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 17310
+Filename: coreutils-nohup_8.32-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 18153
+SHA256sum: 88c5d2071e67877dd29cd91e50f1d28c1f2c9497fea479dca1868a25650fc59e
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils
+Version: 8.32-1
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 104
+Filename: coreutils_8.32-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 987
+SHA256sum: 2f88a79c3efee3096b9533cb5e72b216493ede32c99c394df5a8fc10b58ee831
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: ddns-scripts
+Version: 2.7.8-3
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14586
+Filename: ddns-scripts_2.7.8-3_all.ipk
+Size: 15655
+SHA256sum: 393cbc4d2f841964d7f778e525fb3d14bfd85999d07186ef1069d0a1e1ec7514
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: etherwake
+Version: 1.09-5
+Depends: libc
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 5016
+Filename: etherwake_1.09-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 5942
+SHA256sum: c5a3e03d1d5aed12ad4bfdda7b4ffcbf1cf2c4b0ab86aceb7415546a36c270f2
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: haproxy
+Version: 2.1.7-1
+Depends: libc, libpcre, libltdl7, zlib, libpthread, liblua5.3-5.3, libopenssl1.1, libncurses6, libreadline8, libatomic1
+License: GPL-2.0-only
+Section: net
+CPE-ID: cpe:/a:haproxy:haproxy
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 755101
+Filename: haproxy_2.1.7-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 754816
+SHA256sum: 630d8e93b3871ce0e8a505d768e3a7b180f8ccf578497af39449220d6066d0fc
+Description:  Open source Reliable, High Performance TCP/HTTP Load Balancer.
+ This package is built with SSL and LUA support.
+
+Package: https-dns-proxy
+Version: 2020-04-09-3
+Depends: libc, libcares, libcurl4, libev, ca-bundle
+Conflicts: https_dns_proxy
+License: MIT
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 12069
+Filename: https-dns-proxy_2020-04-09-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13094
+SHA256sum: d9ea9561494d8ddd54d79e1962d23f4a53955ac7fb107126e8ff0e3b72bf09b0
+Description:  https_dns_proxy is a light-weight DNS<-->HTTPS, non-caching translation proxy for the RFC 8484 DNS-over-HTTPS standard. It receives regular (UDP) DNS requests and issues them via DoH.
+ Please see https://github.com/openwrt/packages/blob/master/net/https-dns-proxy/files/README.md for further information.
+
+Package: libcares
+Version: 1.16.1-1
+Depends: libc
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 33084
+Filename: libcares_1.16.1-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 33938
+SHA256sum: 6aed655d07f61f26125d21164db671c2ea8ce2e88eb4a976b6696f136cc8598f
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 21172
+Filename: libev_4.31-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 21923
+SHA256sum: 14cd8bd4b90ca70c33d23721bd6dbb7fd302d159fba5b671cf83443eb38ea4a6
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libminiupnpc
+Version: 2.1.20191224-1
+Depends: libc
+License: BSD-3-Clause
+Section: libs
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 20370
+Filename: libminiupnpc_2.1.20191224-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 21121
+SHA256sum: d99f88078025bbb2a39fda358060a5659e9c1155d988811d8d3c74291165cf55
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3180
+Filename: libnatpmp1_20150609-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 4069
+SHA256sum: bce13e4ac0d1d57827a07f8a6152008151cd0ec632339025271b95b43fb9dc35
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libsodium
+Version: 1.0.18-1
+Depends: libc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 113226
+Filename: libsodium_1.0.18-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 114356
+SHA256sum: 41f4ed27ea0f71dc7379d880261da25c6c9611fe2ebae49bb6e93939c4613fd9
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc2, libuuid1
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53127
+Filename: miniupnpd_2.0.20170421-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 54114
+SHA256sum: de439a6a2248605e1b2ae8ade88d7b1c5299c1b6ac3c35f77c0f647f1d81e343
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.4-4
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 49101
+Filename: shadowsocks-libev-ss-local_3.3.4-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 49969
+SHA256sum: 9c7dac9fc81607621aaac7a9357554e0d8f65fd3ea90a4ee0446fddb46c340c2
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.4-4
+Depends: libc, libev, libmbedtls12, libpthread, libsodium
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42515
+Filename: shadowsocks-libev-ss-redir_3.3.4-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 43276
+SHA256sum: 2ca7654d8ef1b71b3d670a46e8dfb2aed87ab5d3320a27d6251a09234871eda9
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocks-libev-ss-server
+Version: 3.3.4-4
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, libcares, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 52007
+Filename: shadowsocks-libev-ss-server_3.3.4-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 52829
+SHA256sum: 85045b93ccf2bbfa1229ffa7a2a7348f114c543dd0d1fd3891cc7688a9c7e314
+Description:  shadowsocks-libev ss-server
+
+Package: unzip
+Version: 6.0-8
+Depends: libc
+License: BSD-4-Clause
+Section: utils
+CPE-ID: cpe:/a:info-zip:unzip
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 107857
+Filename: unzip_6.0-8_arm_cortex-a15_neon-vfpv4.ipk
+Size: 108819
+SHA256sum: 054f026ee8fd0792caabc53589d4ee10bbac3632290c8b378a64d2be95a39285
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: zerotier
+Version: 1.4.6-3
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1
+License: BSL 1.1
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 378917
+Filename: zerotier_1.4.6-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 378648
+SHA256sum: 8fe8e7a8f365426fd194040ef2bbc2c7a0203c8c91f7d3b12057360080f2b976
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+

@@ -1,0 +1,83 @@
+Package: chinadns-ng
+Version: 1.0-beta.22-2
+Depends: libc, ipset
+Source: feeds/lienol/package/chinadns-ng
+SourceName: chinadns-ng
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: pexcn <i@pexcn.me>
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 16134
+Filename: chinadns-ng_1.0-beta.22-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 16900
+SHA256sum: 0be42ea123a9f87c4d5458e38dfa338ff5f99aa39ce73ade13a199287867881d
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: luci-app-passwall
+Version: 3.9-59
+Depends: libc, libmbedtls12, iptables-mod-tproxy, ip, ipset, coreutils, coreutils-base64, coreutils-nohup, luci-lib-jsonc, curl, ca-certificates, resolveip, unzip, dnsmasq-full, tcping, libuci-lua, ipt2socks, ssocks, ssocksd, pdnsd-alt, shadowsocks-libev-ss-server, shadowsocksr-libev-alt, shadowsocksr-libev-ssr-local, shadowsocksr-libev-server, v2ray, trojan-plus, trojan-go, haproxy, chinadns-ng, https-dns-proxy, dns2socks, v2ray-plugin
+Source: feeds/lienol/lienol/luci-app-passwall
+SourceName: luci-app-passwall
+Section: opt
+Architecture: all
+Installed-Size: 896355
+Filename: luci-app-passwall_3.9-59_all.ipk
+Size: 896433
+SHA256sum: b4bc1097d8af90bbbfa7a03f87bcb703b763f5d2a780a67f57946e5308f072c0
+Description:  LuCI support for PassWall
+
+Package: ssocks
+Version: 0.0.14-1
+Depends: libc, libopenssl1.1
+Source: feeds/lienol/package/ssocks
+SourceName: ssocks
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 13068
+Filename: ssocks_0.0.14-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 13822
+SHA256sum: 34ce50b03cdfffe45ca5fcab7d338fed15311d3a0621d32c31548d1e872aae2a
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool and a socks5 relay.
+
+Package: ssocksd
+Version: 0.0.14-1
+Depends: libc, libopenssl1.1
+Source: feeds/lienol/package/ssocks
+SourceName: ssocksd
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 13289
+Filename: ssocksd_0.0.14-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 14048
+SHA256sum: 6d4a47fdbd0386ddffffa6a781b9c50d9ad326b6924751ff6959d673baa8dd90
+Description:  sSocks is a package which contains: a socks5 server implements RFC 1928 (SOCKS V5) and RFC 1929 (Authentication for SOCKS V5), a reverse socks server and client, a netcat like tool and a socks5 relay.
+
+Package: trojan-go
+Version: 0.8.2-1
+Depends: libc
+Source: feeds/lienol/package/trojan-go
+SourceName: trojan-go
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 3620110
+Filename: trojan-go_0.8.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3621535
+SHA256sum: 92f5e84826cced7729771e7ff8e8beb6b55176f73108fc67b1539d3349aac087
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
+Package: trojan-plus
+Version: 10.0.3-1
+Depends: libc, libpthread, libstdcpp6, libopenssl1.1, boost, boost-system, boost-program_options
+Source: feeds/lienol/package/trojan-plus
+SourceName: trojan-plus
+License: GPL-3.0
+Section: net
+Maintainer: Trojan-Plus-Group
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 354263
+Filename: trojan-plus_10.0.3-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 354602
+SHA256sum: 4de5f9f3812a30e2905bbc5f9c4b0e8c403efe0b0f0d254e87bc14d4b6e215de
+Description:  An unidentifiable mechanism that helps you bypass GFW. It's compatible with original trojan with experimental features.
+
