@@ -1,0 +1,421 @@
+Package: bash
+Version: 5.0-4
+Depends: libc, libncurses6, libreadline8
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:bash
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 317502
+Filename: bash_5.0-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 318159
+SHA256sum: bb56accdea61c474d1df4c54195962bb9864121540cdc5dd783130804b9d69d9
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: boost-date_time
+Version: 1.74.0-2
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 912
+Filename: boost-date_time_1.74.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1751
+SHA256sum: f9652e4beca512d383d5d27009b7605936f7331621dc5e1fd4aff528cf4ff1e3
+Description:  This package contains the Boost date_time library.
+
+Package: boost-program_options
+Version: 1.74.0-2
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 68608
+Filename: boost-program_options_1.74.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 69289
+SHA256sum: 63ae890e56928da98c4154f809b03e1e34eaa86a47f914befb7d9180b762c5ba
+Description:  This package contains the Boost program_options library.
+
+Package: boost-system
+Version: 1.74.0-2
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 899
+Filename: boost-system_1.74.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1735
+SHA256sum: 95161750c36fc77b6b0a0217f35a1a90c52f4200ff91c980bf686d9f44376919
+Description:  This package contains the Boost system library.
+
+Package: boost
+Version: 1.74.0-2
+Depends: libc, libstdcpp6, libpthread, librt
+License: BSL-1.0
+Section: libs
+CPE-ID: cpe:/a:boost:boost
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 105
+Filename: boost_1.74.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1285
+SHA256sum: b2ffa6874eee92df17a83e4319f70a40f5d321317689aa3f663a419a74d11c79
+Description:  This package provides the Boost v1.74.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract
+ - coroutine and coroutine2 (Coroutine is deprecated - use Coroutine2)
+ - date_time
+ - exception
+ - filesystem
+ - fiber
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_74_0/
+
+Package: cgi-io
+Version: 19
+Depends: libc, libubox20191228, libubus20191227
+License: GPL-2.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8365
+Filename: cgi-io_19_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9167
+SHA256sum: 2255845bb5dbe6602f02556d8bea2f5e5b2725a8f34397355b5bab17da997c25
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-base64
+Version: 8.32-2
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 18946
+Filename: coreutils-base64_8.32-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 19822
+SHA256sum: 242b5a26871bd1d9f4ab986e5c2e74fb7c2a17efd059212327ccebe67d1dff41
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils
+Version: 8.32-2
+Depends: libc
+License: GPL-3.0-or-later
+Section: utils
+CPE-ID: cpe:/a:gnu:coreutils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 105
+Filename: coreutils_8.32-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1005
+SHA256sum: 2d2bf645e65b45ce9b02c5799b79ddfb644eaa913613dd85e8486024fa226932
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.72.0-2
+Depends: libc, libcurl4
+License: MIT
+Section: net
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 52018
+Filename: curl_7.72.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 52671
+SHA256sum: 68ba9ca3aaf603992fe2f33a5d089f49deb48589523236fda6c53619644e4090
+Description:  A client-side URL transfer utility
+
+Package: ddns-scripts
+Version: 2.7.8-24
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 15046
+Filename: ddns-scripts_2.7.8-24_all.ipk
+Size: 16134
+SHA256sum: aec3fbfefcbd976af229618922a79f90ad5e1a5664027648f5fdf7c39de49956
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: https://openwrt.org/docs/guide-user/services/ddns/client
+
+Package: iputils-arping
+Version: 20200821-1
+Depends: libc
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:iputils_project:iputils
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 8189
+Filename: iputils-arping_20200821-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 9047
+SHA256sum: 2b34e74d287f3ad82713e27fb4c89158720931a645111b1c6377e68e149dea13
+Description:  Send ARP REQUEST packets to a neighbor host
+
+Package: libcap-ng
+Version: 0.7.11-1
+Depends: libc
+License: GPL-2.0-or-later LGPL-2.1-or-later
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 6579
+Filename: libcap-ng_0.7.11-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 7394
+SHA256sum: 48d64a047e9b543f9aa86a8cd65395e24c143f08c1b0ce701d9b8abbd9d085c0
+Description:  POSIX capabilities library library
+
+Package: libcurl4
+Version: 7.72.0-2
+Depends: libc, libopenssl1.1, libpthread, libopenldap, libnghttp2-14, ca-bundle
+Provides: libcurl
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:haxx:libcurl
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 153040
+Filename: libcurl4_7.72.0-2_arm_cortex-a15_neon-vfpv4.ipk
+Size: 153410
+SHA256sum: 9b409d65a23a5f6c2697357f85c1f7c466efa8b8ec5f46cba1e80f9f176f78a0
+Description:  A client-side URL transfer library
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+License: BSD-2-Clause
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 21174
+Filename: libev_4.31-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 21980
+SHA256sum: db79207673fba21f2d4c2950883ad1b814e42e36173cebdd3226b26d6b7b10c7
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libnghttp2-14
+Version: 1.41.0-1
+Depends: libc
+Provides: libnghttp2
+License: MIT
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 55714
+Filename: libnghttp2-14_1.41.0-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 55210
+SHA256sum: ebe7da48dedd5ce2dfefad05eae77b120e1122ca3ea3b16708402e527073b271
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libnss
+Version: 3.55-1
+Depends: libc, libpthread, libsqlite3-0, nspr
+Section: libs
+CPE-ID: cpe:/a:mozilla:network_security_services
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1108348
+Filename: libnss_3.55-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1099069
+SHA256sum: e368af87a0c5567e3998767a53351e855149c6b26f67d23702c356ff60dad0b1
+Description:  Network Security Services (NSS) is a set of libraries designed to support
+ cross-platform development of security-enabled client and server applications.
+ Applications built with NSS can support SSL v2 and v3, TLS, PKCS 5, PKCS 7,
+ PKCS 11, PKCS 12, S/MIME, X.509 v3 certificates, and other security standards.
+
+Package: libopenldap
+Version: 2.4.48-1
+Depends: libc, libopenssl1.1, libsasl2, libpthread
+License: OLDAP-2.8
+Section: net
+CPE-ID: cpe:/a:openldap:openldap
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 238152
+Filename: libopenldap_2.4.48-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 237775
+SHA256sum: 980a2c159a1bee8bb7728e3c57bcbdba6e1cdc327cfc8b416094f02593c69b2a
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libsasl2
+Version: 2.1.27-3
+Depends: libc, libopenssl1.1
+License: BSD-4c BSD
+Section: libs
+CPE-ID: cpe:/a:cmu:cyrus-sasl
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 81923
+Filename: libsasl2_2.1.27-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 82683
+SHA256sum: ccc98668ee29c95b82a7fbc8f3f9ae212f15cad4738a22b218d1735d0cdf5262
+Description:  A general purpose authentication library
+
+Package: libsodium
+Version: 1.0.18-3
+Depends: libc
+License: ISC
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 113622
+Filename: libsodium_1.0.18-3_arm_cortex-a15_neon-vfpv4.ipk
+Size: 114797
+SHA256sum: f18a4142dbc0d53478ca9ab9485891a34c945f726cde0f199cf8b6474bb42615
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3-0
+Version: 3330000-1
+Depends: libc, libpthread, zlib
+Provides: libsqlite3
+License: PUBLICDOMAIN
+Section: libs
+CPE-ID: cpe:/a:sqlite:sqlite
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 456278
+Filename: libsqlite3-0_3330000-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 456446
+SHA256sum: a35c887f443fbc2005c0265b73c96fada0ad0fa1913b625adc06e12dcf05bfc4
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libuv1
+Version: 1.34.2-1
+Depends: libc, libpthread, librt
+Provides: libuv
+License: MIT
+Section: libs
+CPE-ID: cpe:/a:libuv_project:libuv
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 53013
+Filename: libuv1_1.34.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 53629
+SHA256sum: 1985466b4f1cb92614ae5dc1bf344f73d77ff0f6c3fbf8f83fee44f5e661aa2d
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: miniupnpd
+Version: 2.1.20200510-5
+Depends: libc, iptables, libip4tc2, libip6tc2, ip6tables, libuuid1, libcap-ng
+License: BSD-3-Clause
+Section: net
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 68976
+Filename: miniupnpd_2.1.20200510-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 69947
+SHA256sum: 7bd8dcebf9bcfd900203e934a048d88f25e47f3980e6fd84a38280783d550821
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: netdata
+Version: 1.23.2-1
+Depends: libc, zlib, libuuid1, libuv1, libmnl0, libjson-c5
+License: GPL-3.0-or-later
+Section: admin
+CPE-ID: cpe:/a:my-netdata:netdata
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 1678114
+Filename: netdata_1.23.2-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 1677537
+SHA256sum: 80d46404ecf368b67272c97bacab2290ced5130961365f04933895f27b318847
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+ 
+ If you want to use Python plugins install python3, python3-yaml and
+ python3-urllib3
+
+Package: nspr
+Version: 4.27-1
+Depends: libc, libpthread
+Section: libs
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 88785
+Filename: nspr_4.27-1_arm_cortex-a15_neon-vfpv4.ipk
+Size: 89256
+SHA256sum: 6bb00838e183d4cd137c13fd4d731a5b5ddb6f3f6c5e044cb66af0554ead0d05
+Description:  Netscape Portable Runtime (NSPR) provides a platform-neutral API for system
+ level and libc-like functions. The API is used in the Mozilla clients, many
+ of Red Hat's and Oracle's server applications, and other software offerings.
+
+Package: shadowsocks-libev-config
+Version: 3.3.4-5
+Depends: libc
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 2718
+Filename: shadowsocks-libev-config_3.3.4-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 3533
+SHA256sum: f7e100c4fd6759d966d6520d1b04e9bb671434b4066523704ad9c7eae891a819
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.4-5
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 49101
+Filename: shadowsocks-libev-ss-local_3.3.4-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 49986
+SHA256sum: bbb3df8e5cc879e59bfda5cf0ec730382501bcf2cb5544b75f9900492240b351
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.4-5
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+License: GPL-3.0-or-later
+Section: net
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 42516
+Filename: shadowsocks-libev-ss-redir_3.3.4-5_arm_cortex-a15_neon-vfpv4.ipk
+Size: 43316
+SHA256sum: e613659ba49a5ec50f305a72a713c5c49474166b7ae9bf7d8f94edecd940e549
+Description:  shadowsocks-libev ss-redir
+
+Package: wget
+Version: 1.20.3-4
+Depends: libc, libpcre, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget-ssl
+Alternatives: 300:/usr/bin/wget:/usr/bin/wget-ssl
+License: GPL-3.0-or-later
+Section: net
+CPE-ID: cpe:/a:gnu:wget
+Architecture: arm_cortex-a15_neon-vfpv4
+Installed-Size: 198591
+Filename: wget_1.20.3-4_arm_cortex-a15_neon-vfpv4.ipk
+Size: 199323
+SHA256sum: 482c7b3146eec3be1c1921e1f9c34c6c2eacec565d6eb7cc4a02ae34b814f054
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
